@@ -44,9 +44,10 @@ public class Ravenclaw extends Hogwarts{
         {
             System.out.println("Когтевранец " + this.getName() + " силнее, чем " + student.getName());
 
-        } else if (this.getMind() < student.getMind()){
+        } else if (this.getMind() + this.getWisdom() + this.getWit() + this.getCreativity() <
+                student.getMind() + student.getWisdom() + student.getWit() + student. getCreativity()){
 
-            System.out.println("Когтевранец " + this.getName() + " умнее, чем " + student.getName());
+            System.out.println("Когтевранец " + this.getName() + " силнее, чем " + student.getName());
 
         } else {
             System.out.println("студент " + this.getName() + " равносилен " + student.getName());

@@ -50,9 +50,10 @@ public class Slytherin extends Hogwarts{
         {
             System.out.println("Слизеринец " + this.getName() + " силнее, чем " + student.getName());
 
-        } else if (this.getCunning() < student.getCunning()){
+        } else if (this.getCunning() + this.getDetermination() +this.getAmbition() + this.getResourcefulness() + this.getLustForPower()<
+                student.getCunning() + student.getDetermination() + student. getAmbition()+ student.getResourcefulness() + student.getLustForPower()){
 
-            System.out.println("Слизеринец " + this.getName() + " хитрее, чем " + student.getName());
+            System.out.println("Слизеринец " + this.getName() + " силнее, чем " + student.getName());
 
         } else {
             System.out.println("студент " + this.getName() + " равносилен " + student.getName());

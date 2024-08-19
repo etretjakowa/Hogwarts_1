@@ -36,7 +36,8 @@ public class Hufflepuff extends Hogwarts{
         {
             System.out.println("Пуффендуец " + this.getName() + " силнее, чем " + student.getName());
 
-        } else if (this.getHardworking() < student.getHardworking()){
+        } else if (this.getHardworking() + this.getLoyalty() + this.getHonesty() <
+                student.getHardworking() + student.getLoyalty() + student. getHonesty()){
 
             System.out.println("Пуффендуец " + this.getName() + " трудолюбивее, чем " + student.getName());
 
